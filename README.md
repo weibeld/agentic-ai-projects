@@ -17,10 +17,18 @@ _**🤖 Content last updated 2025-11-04 by AI.**_
 
 ## Design/UI/UX
 
-- https://www.superdesign.dev
-- https://stitch.withgoogle.com/
+| Project | Description | Open-Source | GitHub | Runtime | Released |
+|---------|-------------|-------------|--------|---------|----------|
+| **[Superdesign](https://www.superdesign.dev)** | IDE extension for generating UI designs from natural language. | ✅ | [superdesigndev/superdesign](https://github.com/superdesigndev/superdesign) (⭐️ ~5.1k) | 🧩 Plugin | [Jul 2025](https://github.com/superdesigndev/superdesign) |
+| **[Stitch](https://stitch.withgoogle.com/)** (by Google) | Generates web and mobile app UI from natural language prompts. | ❌ | ❌ | 🌍 Web | [May 2025](https://techcrunch.com/2025/05/20/google-launches-stitch-an-ai-powered-tool-to-help-design-apps/) |
+
+🤖 Content researched by AI. Last updated 2025-11-04.
 
 ## Sinosphere
 
-- https://www.codebanana.com/en/home
-- https://www.trae.ai/
+| Project | Description | Open-Source | GitHub | Runtime | Released |
+|---------|-------------|-------------|--------|---------|----------|
+| **[CodeBanana](https://www.codebanana.com/en/home)** | Real-time collaborative coding environment with project-aware AI. | ❌ | ❌ | 🌍 Web | [Oct 2025](https://www.producthunt.com/products/codebanana) |
+| **[TRAE](https://www.trae.ai/)** (by ByteDance) | Command-line agent for software engineering tasks. | ✅ | [bytedance/trae-agent](https://github.com/bytedance/trae-agent) (⭐️ ~9.8k) | 💻 CLI | [Jul 2025](https://github.com/bytedance/trae-agent) |
+
+🤖 Content researched by AI. Last updated 2025-11-04.
