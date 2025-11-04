@@ -29,6 +29,6 @@ _**🤖 Content last updated 2025-11-04 by AI.**_
 | Project | Description | Open-Source | GitHub | Runtime | Released |
 |---------|-------------|-------------|--------|---------|----------|
 | **[CodeBanana](https://www.codebanana.com/en/home)** | Collaborative coding platform with real-time editing. | ❌ | ❌ | 🌍 Web | [Oct 2025](https://www.producthunt.com/products/codebanana) |
-| **[TRAE](https://www.trae.ai/)** (by ByteDance) | IDE for coding. | ❌ | ❌ | 🖥️ Binary | [Jan 2025](https://pandaily.com/bytedance-launches-trae-ai-coding-tool-for-developers) |
+| **[TRAE](https://www.trae.ai/)** (by ByteDance) | IDE with code generation and agent-based automation. | ❌ | ❌ | 🖥️ Binary | [Jan 2025](https://pandaily.com/bytedance-launches-trae-ai-coding-tool-for-developers) |
 
 🤖 Content researched by AI. Last updated 2025-11-04.
