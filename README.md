@@ -6,6 +6,8 @@ Random non-conclusive collection of projects that make use of AI agents.
 
 _**🤖 Content last updated 2025-11-04 by AI.**_
 
+- https://cognition.ai/blog/codemaps: Visualise code bases for understanding and navigation.
+
 ## General
 
 | Project | Description | Open-Source | GitHub | Runtime | Released |
