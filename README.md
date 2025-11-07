@@ -2,7 +2,7 @@
 
 Non-conclusive list of projects in the agentic AI world, organised across several categories.
 
-> **✨🤖 Note: the content of this file has been researched by AI. Last update 2025-11-06.**
+> **✨🤖 The contents of this file have been researched by AI. ✅ Last updated: 2025-11-06.**
 
 ## Contents
 
@@ -11,7 +11,7 @@ Non-conclusive list of projects in the agentic AI world, organised across severa
 
 ## Agents
 
-> **Note:** this section excludes AI coding agents as they are covered in the [weibeld/ai-coding-agents](https://github.com/weibeld/ai-coding-agents) repository.
+> **Note:** this section excludes **coding agents** as they are covered in the [weibeld/ai-coding-agents](https://github.com/weibeld/ai-coding-agents) repository.
 
 ### General
 

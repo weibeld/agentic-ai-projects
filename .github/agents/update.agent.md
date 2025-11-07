@@ -299,8 +299,68 @@ After processing all items:
    - Make section names bold
    - Format: `1. **[Section Name](#section-anchor)**`
 5. Update the top-level line near the beginning of README.md to today's date
-   - Format: `> **✨🤖 Note: the content of this file has been researched by AI. Last update YYYY-MM-DD.**`
+   - Format: `> **✨🤖 The contents of this file have been researched by AI. ✅ Last updated: YYYY-MM-DD.**`
    - Use today's date in ISO format (YYYY-MM-DD)
+
+## Final Commit Message Format
+
+**IMPORTANT:** After completing ALL updates to the README, create ONE FINAL commit that summarizes all the work done. This is the LAST commit you make. You may have made other commits during your work, but this final commit must follow the format below.
+
+### Message Structure
+
+```
+Finalise update
+
+Added:
+- Added: [ProjectName] ([URL])
+- Added: [ProjectName] ([URL])
+
+Other changes:
+- Updated star counts for N open-source projects
+- Updated Table of Contents
+- Reordered projects by star count and release date
+- Updated last updated date to YYYY-MM-DD
+```
+
+### Important Guidelines
+
+1. **Use "Added:" prefix for each project**
+   - Format: `- Added: [ProjectName] ([URL])`
+   - This allows unambiguous searching (e.g., searching for "Added: Mem0" will find exactly when Mem0 was added)
+   - Use the exact project name as it appears in the README (with correct capitalization and spacing)
+
+2. **List ALL added projects**
+   - Include every project that was converted from bullet points to table entries during this update session
+   - List them in the order they appear in the README (by section)
+
+3. **Summarize other changes**
+   - Mention if star counts were updated (and how many projects)
+   - Note if Table of Contents was updated
+   - Note if projects were reordered
+   - Include the new "last updated" date
+
+4. **Keep it concise but complete**
+   - The commit message should be scannable
+   - Someone reading commit history should immediately understand what was added
+
+### Example
+
+```
+Finalise update
+
+Added:
+- Added: Mem0 (https://mem0.ai/)
+- Added: Supermemory (https://supermemory.ai/)
+- Added: Amazon Bedrock AgentCore Memory (https://aws.amazon.com/bedrock/agentcore/)
+- Added: myNeutron (https://myneutron.ai/)
+- Added: Cognee (https://www.cognee.ai/)
+- Added: MemOS (https://github.com/MemTensor/MemOS)
+
+Other changes:
+- Updated star counts for 5 open-source projects
+- Reordered projects by star count and release date
+- Updated last updated date to 2025-11-07
+```
 
 ## Example Transformations
 
