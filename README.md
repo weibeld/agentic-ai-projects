@@ -56,3 +56,10 @@ Non-conclusive list of projects in the agentic AI world, organised across severa
 | **[MemOS](https://github.com/MemTensor/MemOS)** | Memory operating system for LLMs. | ✅ | [MemTensor/MemOS](https://github.com/MemTensor/MemOS) (⭐️ ~2.9k) | 🧰 SDK | [Jul 2025](https://github.com/MemTensor/MemOS/releases) |
 
 ⬆️ [Back to Contents](#contents)
+
+
+## Multi-Agent Orchestration
+
+- https://www.swarms.ai/
+- https://www.eigent.ai/
+- https://openagents.org/
