@@ -90,13 +90,7 @@ Each section should have a table with the following columns:
 - Example: `[Oct 2025](https://news.ycombinator.com/item?id=12345)`
 - Link to a reliable source documenting the release date
 - **For open-source projects with GitHub repos, check releases/tags FIRST:**
-  - **IF you are the GitHub Copilot coding agent AND have `github-mcp-server/list_releases` and `github-mcp-server/list_tags` tools:**
-    - Use `github-mcp-server/list_releases` to get all releases and find the FIRST/oldest one
-    - Use `github-mcp-server/list_tags` to get all tags and find the FIRST/oldest one
-  - **ELSE IF you have other GitHub MCP server tools for releases/tags:** Use those tools
-  - **ELSE:**
-    - Use WebFetch on GitHub releases page: `github.com/user/repo/releases`
-    - Use WebFetch on GitHub tags page: `github.com/user/repo/tags`
+  - Use the **GitHub Data Retrieval Strategy** (see above) to get releases and tags
   - Look for v0.01, v0.1, v1.0, or first release/tag - this indicates initial launch date
   - Use the date of the first release/tag as the launch date
 - **Finding approximate dates is better than "Unknown"**:
@@ -108,6 +102,20 @@ Each section should have a table with the following columns:
   - Even if you can't find the exact date, finding the month/year is acceptable
   - Being off by a few days or even one month is better than "Unknown"
 - Only use `Unknown` (no link) if truly no evidence of launch timeframe can be found after exhaustive research
+
+## GitHub Data Retrieval Strategy
+
+When retrieving data from GitHub repositories (star counts, releases, tags), use the following priority:
+
+1. **IF you are the GitHub Copilot coding agent AND have the relevant `github-mcp-server/*` tools:** Use those MCP server tools
+2. **ELSE IF you have other GitHub MCP server tools:** Use those tools
+3. **ELSE:** Use the public GitHub API (`https://api.github.com/repos/OWNER/REPO`) OR use WebFetch to scrape the GitHub web interface
+
+**Specific tools for each data type:**
+
+- **Star counts:** `github-mcp-server/search_repositories` (extract `stargazers_count` field)
+- **Releases:** `github-mcp-server/list_releases` (find the FIRST/oldest release)
+- **Tags:** `github-mcp-server/list_tags` (find the FIRST/oldest tag)
 
 ## Research Requirements
 
@@ -149,15 +157,7 @@ For each unprocessed item, research the following:
 
 ### 4. GitHub Repository
 - If open-source, find the GitHub repository URL
-- **Get the current star count:**
-  - **IF you are the GitHub Copilot coding agent** (https://docs.github.com/en/copilot/concepts/agents/coding-agent/about-coding-agent) **AND** you have the `github-mcp-server/search_repositories` tool available:
-    - Use the `github-mcp-server/search_repositories` tool to retrieve the star count
-    - Extract the `stargazers_count` field from the response
-  - **ELSE IF you have another GitHub MCP server tool** that can retrieve repository information:
-    - Use that tool to get the star count
-  - **ELSE:**
-    - Use the public GitHub API (e.g., `https://api.github.com/repos/OWNER/REPO`)
-    - OR use WebFetch to scrape the GitHub repository web page
+- Get the current star count using the **GitHub Data Retrieval Strategy** (see above)
 - Format as `user/repo` with star count
 
 ### 5. Release Date
@@ -165,13 +165,7 @@ For each unprocessed item, research the following:
 - **Priority: Find at least the month/year** - this is better than "Unknown"
 - Sources to check (in order of reliability):
   1. **For open-source projects:** GitHub releases/tags (use date of FIRST release/tag)
-     - **IF you are the GitHub Copilot coding agent AND have `github-mcp-server/list_releases` and `github-mcp-server/list_tags` tools:**
-       - Use `github-mcp-server/list_releases` to get all releases and find the FIRST/oldest one
-       - Use `github-mcp-server/list_tags` to get all tags and find the FIRST/oldest one
-     - **ELSE IF you have other GitHub MCP server tools for releases/tags:** Use those tools
-     - **ELSE:**
-       - Use WebFetch on `github.com/user/repo/releases`
-       - Use WebFetch on `github.com/user/repo/tags`
+     - Use the **GitHub Data Retrieval Strategy** (see above) to get releases and tags
      - Look for v0.01, v0.1, v1.0, or earliest release
   2. Official launch announcements (company blog, press releases)
   3. Product Hunt launch page (producthunt.com/products/[name]/launches)
@@ -219,19 +213,9 @@ For each unprocessed item, research the following:
    - Check About page / footer for parent organization
 3. **Use WebSearch** to find additional information, but always prioritize official sources
 4. **Check GitHub** (if open-source):
-   - **For star counts:**
-     - **IF you are the GitHub Copilot coding agent AND have `github-mcp-server/search_repositories` tool:** Use that tool (extract `stargazers_count` field)
-     - **ELSE IF you have another GitHub MCP server tool:** Use that tool
-     - **ELSE:** Use public GitHub API (`https://api.github.com/repos/OWNER/REPO`) OR use WebFetch on the web interface (`github.com/user/repo`)
-   - **For release dates:**
-     - **IF you are the GitHub Copilot coding agent AND have `github-mcp-server/list_releases` and `github-mcp-server/list_tags` tools:**
-       - Use `github-mcp-server/list_releases` to get all releases and find the FIRST/oldest one
-       - Use `github-mcp-server/list_tags` to get all tags and find the FIRST/oldest one
-     - **ELSE IF you have other GitHub MCP server tools for releases/tags:** Use those tools
-     - **ELSE:**
-       - Use WebFetch on `github.com/user/repo/releases` for release dates
-       - Use WebFetch on `github.com/user/repo/tags` for version tags
-     - Look for FIRST release/tag to determine launch date
+   - Use the **GitHub Data Retrieval Strategy** (see above) to get:
+     - Star counts from the repository
+     - Releases and tags (look for FIRST/oldest release to determine launch date)
 5. **Verify release dates** carefully:
    - For open-source: GitHub releases/tags FIRST (look for earliest release)
    - Check Product Hunt launch page (producthunt.com/products/[name]/launches)
@@ -248,10 +232,7 @@ For each unprocessed item, research the following:
 
 For existing table entries with GitHub repositories:
 
-1. **Get the current star count for each repository:**
-   - **IF you are the GitHub Copilot coding agent AND have `github-mcp-server/search_repositories` tool:** Use that tool to retrieve star counts (extract `stargazers_count` field)
-   - **ELSE IF you have another GitHub MCP server tool:** Use that tool to get star counts
-   - **ELSE:** Use the public GitHub API (`https://api.github.com/repos/OWNER/REPO`) OR use WebFetch to scrape the repository web page
+1. Get the current star count for each repository using the **GitHub Data Retrieval Strategy** (see above)
 2. Update the star count in the format `(⭐️ ~X.Xk)` or `(⭐️ ~X)` (rounded to one decimal place for thousands)
 3. ONLY update the GitHub star count. Do NOT change any other fields (project name, description, type, release date, etc.)
 
