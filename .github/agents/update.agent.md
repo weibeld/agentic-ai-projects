@@ -309,9 +309,9 @@ After processing all items:
 ### Message Structure
 
 ```
-Finalise update
+Perform update
 
-Added:
+Added projects:
 - Added: [ProjectName] ([URL])
 - Added: [ProjectName] ([URL])
 
@@ -346,9 +346,9 @@ Other changes:
 ### Example
 
 ```
-Finalise update
+Perform update
 
-Added:
+Added projects:
 - Added: Mem0 (https://mem0.ai/)
 - Added: Supermemory (https://supermemory.ai/)
 - Added: Amazon Bedrock AgentCore Memory (https://aws.amazon.com/bedrock/agentcore/)
