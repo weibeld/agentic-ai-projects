@@ -1,6 +1,6 @@
 # Agentic AI Projects
 
-![Last Updated](https://img.shields.io/date/1762792959?label=✅%20Last%20AI%20Update&color=success)
+![Last Updated](https://img.shields.io/date/1762795152?label=✅%20Last%20AI%20Update&color=success)
 
 Non-conclusive list of projects in the agentic AI world, organised across several categories.
 
@@ -40,15 +40,14 @@ Non-conclusive list of projects in the agentic AI world, organised across severa
 
 | Project | Description | Open-Source | GitHub | Type | Released |
 |---------|-------------|-------------|--------|------|----------|
-| **[HackGPT](https://github.com/yashab-cyber/HackGpt)** | Penetration testing platform for security assessments. | ✅ | [yashab-cyber/HackGpt](https://github.com/yashab-cyber/HackGpt) (⭐️ ~268) | 💻 CLI Tool, 🔌 API, 🌍 Web App | [Aug 2025](https://github.com/yashab-cyber/HackGpt) |
+| **[HackGPT](https://github.com/yashab-cyber/HackGpt)** | Penetration testing platform for security assessments. | ✅ | [yashab-cyber/HackGpt](https://github.com/yashab-cyber/HackGpt) (⭐️ ~285) | 💻 CLI Tool, 🔌 API, 🌍 Web App | [Aug 2025](https://github.com/yashab-cyber/HackGpt) |
 
 ### Software Development
 
 | Project | Description | Open-Source | GitHub | Type | Released |
 |---------|-------------|-------------|--------|------|----------|
+| **[MetaGPT](https://www.deepwisdom.ai/metagpt)** | Multi-agent framework for software development. | ✅ | [FoundationAgents/MetaGPT](https://github.com/FoundationAgents/MetaGPT) (⭐️ ~59.3k) | 🧰 SDK | [Jun 2023](https://github.com/FoundationAgents/MetaGPT/releases) |
 | **[Propolis](https://propolis.tech/)** | Swarms of agents simulating users for testing apps. | ❌ | ❌ | 🌍 Web App | [Oct 2025](https://news.ycombinator.com/item?id=45762012) |
-
-- https://www.deepwisdom.ai/metagpt
 
 ### Data
 
@@ -91,10 +90,9 @@ Non-conclusive list of projects in the agentic AI world, organised across severa
 
 | Project | Description | Open-Source | GitHub | Type | Released |
 |---------|-------------|-------------|--------|------|----------|
+| **[CrewAI](https://www.crewai.com/)** | Framework for orchestrating AI agents. | ✅ | [crewAIInc/crewAI](https://github.com/crewAIInc/crewAI) (⭐️ ~40.2k) | 🧰 SDK | [Oct 2023](https://github.com/crewAIInc/crewAI/releases) |
 | **[Swarms](https://www.swarms.ai/)** | Framework for building and deploying agent systems. | ✅ | [kyegomez/swarms](https://github.com/kyegomez/swarms) (⭐️ ~5.4k) | 🧰 SDK | [Nov 2023](https://github.com/kyegomez/swarms/releases) |
 | **[OpenAgents](https://openagents.org/)** | Platform for building networks of collaborative AI agents. | ✅ | [xlang-ai/OpenAgents](https://github.com/xlang-ai/OpenAgents) (⭐️ ~4.6k) | 🌍 Web App | [Oct 2023](https://github.com/xlang-ai/OpenAgents) |
 | **[Eigent](https://www.eigent.ai/)** (by CAMEL-AI) | Desktop app for building and managing agent workforces. | ✅ | [eigent-ai/eigent](https://github.com/eigent-ai/eigent) (⭐️ ~2.4k) | 📊 Desktop App | [Jul 2025](https://github.com/eigent-ai/eigent/releases) |
-
-- https://www.crewai.com/
 
 ⬆️ [Back to Contents](#contents)
