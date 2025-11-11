@@ -50,6 +50,10 @@ Non-conclusive list of projects in the agentic AI world, organised across severa
 
 - https://www.deepwisdom.ai/metagpt
 
+### Data
+
+- https://www.sheet0.com/
+
 ⬆️ [Back to Contents](#contents)
 
 ### Chinese Projects
