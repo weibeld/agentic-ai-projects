@@ -60,11 +60,11 @@ Non-conclusive list of projects in the agentic AI world, organised across severa
 
 | Project | Description | Open-Source | GitHub | Type | Released |
 |---------|-------------|-------------|--------|------|----------|
-| **[Fellou](https://fellou.ai/)** | Browser with autonomous task automation and workflows. | ✅ | [FellouAI/eko](https://github.com/FellouAI/eko) (⭐️ ~4.7k) | 🌍 Web App | [May 2025](https://fellou.ai/blog/post/fellou-v2-launch/) |
-| **[ChatGPT Atlas](https://chatgpt.com/atlas/)** (by OpenAI) | Browser with integrated ChatGPT and agent mode. | ❌ | ❌ | 🌍 Web App | [Oct 2025](https://openai.com/index/introducing-chatgpt-atlas/) |
-| **[Comet](https://www.perplexity.ai/comet)** (by Perplexity) | Browser with AI assistant for research and automation. | ❌ | ❌ | 🌍 Web App | [Oct 2025](https://www.perplexity.ai/hub/blog/comet-is-now-available-to-everyone-worldwide) |
-| **[Opera Neon](https://www.operaneon.com/)** | Browser with tasks and reusable workflow cards. | ❌ | ❌ | 🌍 Web App | [Sep 2025](https://techcrunch.com/2025/09/30/opera-launches-its-ai-centric-neon-browser/) |
-| **[Dia](https://www.diabrowser.com/)** | Browser with embedded chatbot and Skills automation. | ❌ | ❌ | 🌍 Web App | [Jun 2025](https://techcrunch.com/2025/06/11/the-browser-company-launches-its-ai-first-browser-dia-in-beta/) |
+| **[Fellou](https://fellou.ai/)** | Browser with autonomous task automation and workflows. | ✅ | [FellouAI/eko](https://github.com/FellouAI/eko) (⭐️ ~4.7k) | 📊 Desktop App | [May 2025](https://fellou.ai/blog/post/fellou-v2-launch/) |
+| **[ChatGPT Atlas](https://chatgpt.com/atlas/)** (by OpenAI) | Browser with integrated ChatGPT and agent mode. | ❌ | ❌ | 📊 Desktop App | [Oct 2025](https://openai.com/index/introducing-chatgpt-atlas/) |
+| **[Comet](https://www.perplexity.ai/comet)** (by Perplexity) | Browser with AI assistant for research and automation. | ❌ | ❌ | 📊 Desktop App | [Oct 2025](https://www.perplexity.ai/hub/blog/comet-is-now-available-to-everyone-worldwide) |
+| **[Opera Neon](https://www.operaneon.com/)** | Browser with tasks and reusable workflow cards. | ❌ | ❌ | 📊 Desktop App | [Sep 2025](https://techcrunch.com/2025/09/30/opera-launches-its-ai-centric-neon-browser/) |
+| **[Dia](https://www.diabrowser.com/)** | Browser with embedded chatbot and Skills automation. | ❌ | ❌ | 📊 Desktop App | [Jun 2025](https://techcrunch.com/2025/06/11/the-browser-company-launches-its-ai-first-browser-dia-in-beta/) |
 | **[Project Mariner](https://deepmind.google/models/project-mariner/)** (by Google) | Browser agent for automating multi-step web tasks. | ❌ | ❌ | 🧩 Plugin/Extension | [May 2025](https://techcrunch.com/2025/05/20/google-rolls-out-project-mariner-its-web-browsing-ai-agent/) |
 
 ### Chinese Projects
