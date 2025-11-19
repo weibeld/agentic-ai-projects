@@ -285,34 +285,59 @@ When adding new entries to an existing table, insert them in the correct positio
 
 The README has a "## Contents" section that must be kept up to date:
 
-1. List all level-2 headings (##) in the README, excluding "Contents" itself
-2. Use an ordered list with bold section names
-3. Format as markdown links: `1. **[Section Name](#section-anchor)**`
-4. Convert section names to GitHub anchor format:
+1. **CRITICAL:** The README uses a flattened structure with ONLY level-2 headings (##). There are NO level-3 subheadings (###).
+2. List all level-2 headings (##) in the README, excluding "Contents" itself
+3. Use an ordered list with bold section names
+4. Format as markdown links: `1. **[Section Name](#section-anchor)**`
+5. Convert section names to GitHub anchor format:
    - Lowercase all letters
    - Replace spaces with hyphens
    - Remove special characters
-   - Number the sections (1. Agents, 2. Agent Memory, etc.)
+   - Number the sections (1. Design/UI/UX, 2. Machine Learning, etc.)
    - Example: "Agent Memory" → `#agent-memory`
-5. Keep it single-level (only ## headings, not ### subheadings)
+   - Example: "Design/UI/UX" → `#designuiux`
 
 Example:
 ```markdown
 ## Contents
 
-1. **[Agents](#agents)**
-2. **[Agent Memory](#agent-memory)**
+1. **[Design/UI/UX](#designuiux)**
+2. **[Machine Learning](#machine-learning)**
+3. **[Agent Memory](#agent-memory)**
 ```
 
 ## Section Navigation Links
 
-At the end of each level-2 section (##), after all subsections and tables, add a navigation link back to the Table of Contents:
+**CRITICAL:** At the end of EVERY level-2 section (##), after the table, you MUST add a navigation link back to the Table of Contents:
 
 ```markdown
 ⬆️ [Back to Contents](#contents)
 ```
 
-This should appear after the last subsection's table in each main section.
+**Important:**
+- This link must appear at the end of every section, right after the table
+- There should be a blank line between the table and the "Back to Contents" link
+- Since the README uses a flattened structure with only level-2 headings (##), there are no subsections to worry about
+- Every section gets exactly one "Back to Contents" link at the end
+
+Example:
+```markdown
+## Machine Learning
+
+| Project | Description | Open-Source | GitHub | Type | Released |
+|---------|-------------|-------------|--------|------|----------|
+| **[NEO](https://heyneo.so/)** | ML engineer agent. | ❌ | ❌ | 🌍 Web App | [Nov 2024](https://heyneo.so/blog) |
+
+⬆️ [Back to Contents](#contents)
+
+## Security
+
+| Project | Description | Open-Source | GitHub | Type | Released |
+|---------|-------------|-------------|--------|------|----------|
+| **[HackGPT](https://github.com/yashab-cyber/HackGpt)** | Penetration testing platform. | ✅ | [yashab-cyber/HackGpt](https://github.com/yashab-cyber/HackGpt) (⭐️ ~580) | 💻 CLI Tool | [Aug 2025](https://github.com/yashab-cyber/HackGpt) |
+
+⬆️ [Back to Contents](#contents)
+```
 
 ## Final Steps
 
@@ -320,11 +345,12 @@ After processing all items:
 
 1. Remove all processed bullet points
 2. Ensure all projects within each table are ordered correctly (open-source by stars desc, then closed-source by date desc)
-3. Add "⬆️ [Back to Contents](#contents)" link at the end of each level-2 section
+3. **Add "⬆️ [Back to Contents](#contents)" link at the end of EVERY level-2 section (after the table)**
 4. Update the Table of Contents:
    - Use ordered list format (1., 2., etc.)
    - Make section names bold
    - Format: `1. **[Section Name](#section-anchor)**`
+   - **Remember:** The README uses a flattened structure with ONLY level-2 headings (##)
 5. Update the shields.io badge at the beginning of README.md with today's date:
    - Find the line: `![Last Updated](https://img.shields.io/date/TIMESTAMP?label=✅%20Last%20AI%20Update&color=success)`
    - Calculate today's UNIX timestamp in seconds (use `date +%s` command via Bash tool)
